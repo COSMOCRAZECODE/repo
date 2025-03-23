@@ -211,6 +211,7 @@ data = yf.download(ticker, start=strat_date, end=end_date)
 
 if data.empty:
     st.error("No data available for the selected ticker.")
+    st.stop()
 else:
     fig = px.line(data, x=data.index, y=data["Adj Close"], title=f"{ticker} Stock Price")
     st.plotly_chart(fig)
