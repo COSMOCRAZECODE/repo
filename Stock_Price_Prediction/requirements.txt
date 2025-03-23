@@ -3,3 +3,4 @@ plotly
 tensorflow
 keras
 alpha_vantage
+scikit-learn
