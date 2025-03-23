@@ -1,4 +1,4 @@
-yfinanc
+yfinance
 plotly
 tensorflow
 keras
