@@ -198,8 +198,8 @@ import numpy as np
 import yfinance as yf
 import plotly.express as px
 from sklearn.preprocessing import MinMaxScaler
-from keras import Sequential
-from keras import LSTM, Dense, Dropout
+from keras.models import Sequential
+from keras.layers import LSTM, Dense, Dropout
 
 st.title("Stock Dashboard")
 
